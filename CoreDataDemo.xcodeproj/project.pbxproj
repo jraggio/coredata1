@@ -15,6 +15,8 @@
 		963750801CCEA76600B35263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9637507E1CCEA76600B35263 /* LaunchScreen.storyboard */; };
 		9637508B1CCEA76600B35263 /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9637508A1CCEA76600B35263 /* CoreDataDemoTests.swift */; };
 		963750961CCEA76600B35263 /* CoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963750951CCEA76600B35263 /* CoreDataDemoUITests.swift */; };
+		963750A51CCEA86B00B35263 /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963750A31CCEA86B00B35263 /* Contacts+CoreDataProperties.swift */; };
+		963750A61CCEA86B00B35263 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963750A41CCEA86B00B35263 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		963750911CCEA76600B35263 /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963750951CCEA76600B35263 /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		963750971CCEA76600B35263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963750A31CCEA86B00B35263 /* Contacts+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		963750A41CCEA86B00B35263 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		963750661CCEA76600B35263 = {
 			isa = PBXGroup;
 			children = (
+				963750A31CCEA86B00B35263 /* Contacts+CoreDataProperties.swift */,
+				963750A41CCEA86B00B35263 /* Contacts.swift */,
 				963750711CCEA76600B35263 /* CoreDataDemo */,
 				963750891CCEA76600B35263 /* CoreDataDemoTests */,
 				963750941CCEA76600B35263 /* CoreDataDemoUITests */,
@@ -264,7 +270,9 @@
 			files = (
 				963750751CCEA76600B35263 /* ViewController.swift in Sources */,
 				9637507B1CCEA76600B35263 /* CoreDataDemo.xcdatamodeld in Sources */,
+				963750A51CCEA86B00B35263 /* Contacts+CoreDataProperties.swift in Sources */,
 				963750731CCEA76600B35263 /* AppDelegate.swift in Sources */,
+				963750A61CCEA86B00B35263 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
